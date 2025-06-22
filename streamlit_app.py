@@ -25,8 +25,7 @@ st.markdown("""
 st.markdown('<h1 style="color: black;">Handwritten Image Generator</h1>', unsafe_allow_html=True)
 
 # --- DESCRIPTION ---
-st.write("Generate syntetic MNIST-like images using your trained model.")
-
+st.markdown('<p style="color: black;">Generate syntetic MNIST-like images using your trained model.</p>', unsafe_allow_html=True)
 
 # --- USER INPUT ---
 # Create a select box for the user to choose a digit.
